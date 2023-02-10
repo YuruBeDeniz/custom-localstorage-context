@@ -1,8 +1,9 @@
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      App
+      <p>Value: 1000</p>
+      <button onClick={() => console.log("click")}>Change state!</button>
     </div>
   );
 }
